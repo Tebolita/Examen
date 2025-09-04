@@ -1,0 +1,84 @@
+{
+  "products": [
+    { 
+      "id": 1, 
+      "nombre": "iPhone 15 Pro", 
+      "descripcion": "Smartphone Apple con chip A17 Pro, cámara triple de 48MP y USB-C", 
+      "precio": 1099, 
+      "imagen": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/I/P/IPHONE16PM256N_1.jpg", 
+      "cantidad": 10 
+    },
+    { 
+      "id": 2, 
+      "nombre": "Samsung Galaxy S24 Ultra", 
+      "descripcion": "Teléfono Samsung con Snapdragon 8 Gen 3, pantalla AMOLED 120Hz", 
+      "precio": 1199, 
+      "imagen": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/S/M/SMS928BZKK_1.jpg", 
+      "cantidad": 15 
+    },
+    { 
+      "id": 3, 
+      "nombre": "MacBook Air M2", 
+      "descripcion": "Laptop ultradelgada de Apple con chip M2, 8GB RAM y 256GB SSD", 
+      "precio": 1299, 
+      "imagen": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/M/C/MC7X4EA_1_23052025143724.jpg", 
+      "cantidad": 7 
+    },
+    { 
+      "id": 4, 
+      "nombre": "Dell XPS 13", 
+      "descripcion": "Ultrabook premium con Intel Core i7, 16GB RAM y 512GB SSD", 
+      "precio": 1399, 
+      "imagen": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/1/2/12WWJ_1.png", 
+      "cantidad": 5 
+    },
+    { 
+      "id": 5, 
+      "nombre": "Sony WH-1000XM5", 
+      "descripcion": "Auriculares inalámbricos con cancelación de ruido líder en el mercado", 
+      "precio": 399, 
+      "imagen": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/w/h/wh1000xm5bmuc.jpg", 
+      "cantidad": 20 
+    },
+    { 
+      "id": 6, 
+      "nombre": "iPad Pro 12.9", 
+      "descripcion": "Tableta Apple con pantalla Liquid Retina XDR y chip M2", 
+      "precio": 1199, 
+      "imagen": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/Z/A/ZAGGPK10BK_1.jpg", 
+      "cantidad": 8 
+    },
+    { 
+      "id": 7, 
+      "nombre": "PlayStation 5", 
+      "descripcion": "Consola de última generación con SSD ultrarrápido y gráficos 4K", 
+      "precio": 499, 
+      "imagen": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/P/S/PS5DIGBUNGAME2_1_1.jpg", 
+      "cantidad": 12 
+    },
+    { 
+      "id": 8, 
+      "nombre": "Xbox Series X", 
+      "descripcion": "Consola de Microsoft con 1TB SSD y soporte para juegos en 4K", 
+      "precio": 499, 
+      "imagen": "https://m.media-amazon.com/images/I/71NBQ2a52CL._SL1500_.jpg", 
+      "cantidad": 9 
+    },
+    { 
+      "id": 9, 
+      "nombre": "Nikon Z6 II", 
+      "descripcion": "Cámara mirrorless de fotograma completo con 24.5 MP", 
+      "precio": 1999, 
+      "imagen": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/i/l/ilce7m3k.jpg", 
+      "cantidad": 3 
+    },
+    { 
+      "id": 10, 
+      "nombre": "GoPro Hero 12", 
+      "descripcion": "Cámara de acción 5.3K con estabilización avanzada", 
+      "precio": 449, 
+      "imagen": "https://backoffice.max.com.gt/media/catalog/product/cache/94dd7777337ccc7ac42c8ee85d48fab6/C/H/CHDHX121RW_1.png", 
+      "cantidad": 14 
+    }
+  ]
+}
