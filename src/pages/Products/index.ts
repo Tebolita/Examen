@@ -1,0 +1,1 @@
+export {default as Producto} from './Product.tsx';

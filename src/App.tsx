@@ -1,12 +1,12 @@
-import './App.css'
+import NavBar from './components/layout/navbar.tsx'
+import { Producto } from './pages/Products';
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Holiiii</h1>
-      </div>
+      <NavBar />
+      <Producto />
     </>
   )
 }
