@@ -19,6 +19,7 @@ const Products: React.FC = () => {
     const [order, setOrder] = useState('');
 
 
+
     const dataFilter = [
         { value: 'precio-asc', label: 'Precio: de menor a mayor' },
         { value: 'precio-desc', label: 'Precio: de mayor a menor' },
@@ -48,7 +49,12 @@ const Products: React.FC = () => {
     const handleShowModal = () => {
         setShowModal(!showModal)
     }
-
+    
+    useEffect(() => {
+        if (error) {
+            showAlert(error, "error");
+        }
+    }, [error]);
 
     useEffect(() => {
         setCurrentPage(1);
@@ -68,10 +74,11 @@ const Products: React.FC = () => {
         showAlert("Se registro el producto de manera correcta", "success")
     };
 
+
   return (
     <>
          
-        {error && <p className="text-danger">{error}</p>}
+        {/* {error && <p className="text-danger" >{error}</p>} */}
         <Modal show={showModal} onClose={() => setShowModal(false)} title="Agregar Productos" >
             {<ProductForm onSubmit={handleAddProduct}/>}
         </Modal>
