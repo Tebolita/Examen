@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback, useMemo } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { productService } from "../services/productService";
 import { Product } from "../types/product";
 
@@ -21,14 +21,18 @@ export function useProducts(searchTerm?: string, filter?: string, order?: string
         }
     }, [searchTerm, filter, order]);
 
-    const totalStock = useMemo(
-        () => products.reduce((acc, p) => acc + p.cantidad, 0),
-        [products]
-    );
+    const addProduct = async (data: Product) => {
+        try {
+            const newProduct = await productService.addProduct(data);
+            setProducts((prev) => [...prev, newProduct]);
+        } catch (error) {
+            console.error(error);
+        }
+    };
 
     useEffect(() => {
         loadProducts();
     }, [loadProducts]);
 
-    return { products, loading, error, totalStock, loadProducts, setProducts };
+    return { products, loading, error, loadProducts, addProduct, setProducts };
 }

@@ -14,8 +14,14 @@ interface FilterProps {
 function Filter({ styleDiv = "", styleSelect = "", dataFilter = [], onselectionchange }: FilterProps) {
     return (
         <div className={`position-relative ${styleDiv}`}>
-            <select className={`form-select ${styleSelect}`} aria-label="Default select example" onChange={e => onselectionchange(e.target.value)}>
-                <option selected>Selecciona un filtro</option>
+            <select className={`form-select ${styleSelect}`} aria-label="Default select example" onChange={e => {
+                if (e.target.value !== "Selecciona un filtro"){
+                    onselectionchange(e.target.value);
+                }else{
+                    onselectionchange(" - ");
+                }
+                }}>
+                <option>Selecciona un filtro</option>
                 {dataFilter.map((filter, index) => (
                     <option key={index} value={filter?.value}>{filter?.label}</option>
                 ))}

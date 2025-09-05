@@ -22,6 +22,10 @@ Si deseas exponer el puerto y que sea accesible desde otras máquinas en la red:
 ```bash
 npm run dev --host
 ```
+Para exponer la api debemos de utilizar el comando
+```bash
+npm run json-server
+```
 
 > **Tip:** Accede a `http://localhost:5173` (o el puerto que indique la consola) para ver la aplicación en tu navegador.
 
