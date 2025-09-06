@@ -46,6 +46,7 @@ src/
   ├── pages/             # Vistas completas (Login, Dashboard, Profile, etc.)
   │     └── Products/    # Vistas y consumo de componentes
   ├── utils/             # Funciones auxiliares
+  ├── types/             # Aqui definiomos los tipos de datos para validaciones más robustas.
   ├── hoost/             # Para el consumo de servicios
   ├── styles/            # Estilos globales
   ├── App.tsx            # Componente raíz
