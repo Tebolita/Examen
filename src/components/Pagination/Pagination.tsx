@@ -19,7 +19,7 @@ const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, onPage
             <span className="align-self-center">Página {currentPage} de {totalPages}</span>
             <button
                 className="btn btn-primary ms-2"
-                disabled={currentPage === totalPages}
+                disabled={currentPage === totalPages || totalPages === 0}
                 onClick={() => onPageChange(currentPage + 1)}
             >
                 {'>'}
